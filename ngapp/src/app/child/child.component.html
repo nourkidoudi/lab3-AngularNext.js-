@@ -1,0 +1,8 @@
+<p> Content from parent: {{ content }} </p>
+<p> States List: {{ states }} </p>
+<div *ngIf="states?.length; else emptyStates">
+  <div *ngFor="let state of states; trackBy: trackByState">Name: {{ state }}</div>
+  </div>
+<ng-template #emptyStates>
+  <div>States are empty</div>
+</ng-template>

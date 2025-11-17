@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Angular
+.angular/
+.angular/cache/
+dist/
+
+# Next.js
+.next/
+out/
+.next/cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env
+.env*
+
+# Coverage / Tests
+coverage/
+
+# Misc
+package-lock.json
